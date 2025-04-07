@@ -1,0 +1,27 @@
+.parent{
+    height: 800px;
+    width: 800px;
+    background-color: blue;
+    /* display: flex; */
+}
+.child1, .child2, .child3
+{
+    display: flex;
+}
+.cousin, .cousin1,.cousin2, .cousin5, .cousin7{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+    
+}
+
+.cousin5, .cousin8{
+    height: 200px;
+    width: 700px;
+    background-color: red;
+    margin: 10px;
+    
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Application Form</h2>
+
+    <form>
+        <label for="name">First Name: </label>
+        <input type="text" id="name">
+
+        <label for="name">Last Name: </label>
+        <input type="text" id="name"><br>
+
+        <div id="calen">
+            <label for="date">Date of birth:</label>
+            <input type="date" id="date">
+        </div>
+        <div id="year">
+            <label for="number">Age:</label>
+            <input id="number">
+        </div>
+        <br>
+
+        <div id="Gender">
+            <label for="gender">Gender:</label>
+            <select id="gender">
+                <option value="Select">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Others</option>
+            </select>
+        </div>
+
+        <div id="emailAdd">
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" placeholder="Enter email address">
+        </div><br>
+
+        <div id="poisitionAva">
+            <label> Positions Available:</label>
+            <input type="radio" id="developer" name="position">
+            <label for="developer">Junior Developer</label>
+            <input type="radio" id="developer" name="position">
+            <label for="developer">Mid-level Developer</label>
+            <input type="radio" id="developer" name="position">
+            <label for="developer">Senior Developer</label>
+        </div>
+        <br>
+
+        <div id="langu">
+            <label for="Languages">Programming Languages: </label>
+            <input type="checkbox"> Java
+            <input type="checkbox"> JavaScript
+            <input type="checkbox"> Python
+        </div><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <label for="password">Confirm Password: </label>
+        <input type="password" id="password">
+        <br>
+
+        <button class="btn">Submit</button>
+        <button class="btn" type="reset">Reset</button>
+
+    </form>
+
+</body>
+
+</html>

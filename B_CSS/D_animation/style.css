@@ -1,0 +1,56 @@
+/* @media (max-width: 600px) {
+.box{
+      display: none;
+    }
+  } */
+
+  @media (max-width: 500px) {
+    .co-box{
+      display: none;
+    }
+  }
+
+
+  .box {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+  }
+
+  .co-box{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+
+    animation: bimal 3s infinite;
+    position: absolute;
+  }
+
+  @keyframes bimal{
+    0%{
+      top: 0;
+      left: 0;
+    }
+    25%{
+      top: 10%;
+      right: 10%;
+    }
+    50%{
+      bottom: 20%;
+      right: 20%;
+    }
+    75%{
+      left: 30%;
+      bottom: 30%;
+    }
+    100%{
+      right: 0;
+      bottom: 0;
+    }
+
+  }

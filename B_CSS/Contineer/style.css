@@ -1,0 +1,51 @@
+.box{
+    height: 300px;
+    width: 500px;
+    background-color: blue;
+    position: relative;
+    border-radius: 250% 85% 0% 0;
+}
+
+.tier, .tier1{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25%;
+    border: 10px solid blue;
+    /* translate: -20% -20%; */
+}
+
+.tier1{  
+    right: 0%;
+}
+
+.jhyal, .jhyal1{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(242, 174, 174);
+    position: absolute;
+    top: 35%;
+    right: 20%;
+
+}
+.jhyal0{
+    display: flex;
+}
+
+.jhyal1{
+    left: 53%;
+    margin-left: 10px;
+}
+
+
+
+@keyframes slideIn {
+    100% { opacity: -8; }
+    0% { opacity: 50; }
+  }
+
+  .box {
+    animation: slideIn 2s infinite alternate;
+  }
